@@ -141,11 +141,36 @@ footer{margin-top:56px;font-size:13.5px;color:var(--muted);max-width:70ch}
 
 <header>
   <h1>We steer AI. It does not take the wheel.</h1>
-  <p class="lede">Observer Studio is a design studio that became an engineering team in six months. This page is how we work, what we run, and what we shipped. Everything here is live or dated.</p>
+  <p class="lede">Observer Studio is a design studio that became an engineering team in six months. Eight products in production or on the way, one way of working across all of them. Everything here is live or dated.</p>
 </header>
 
-<section class="sec first" aria-labelledby="months-h">
-  <div><h2 id="months-h">Six months</h2><p>Our communication, our collaboration and our team understanding grew in that time. We test the latest tools and keep only what earns its place.</p></div>
+<section class="sec first" aria-labelledby="team-h">
+  <div><h2 id="team-h">Who we are</h2><p>A small studio. Designers who now ship code, engineers who now read scorecards, and agents that do the typing under a gate a human owns.</p></div>
+  <div class="layers">
+    <div><b>Founder, product</b><span><mark data-todo>Momen: one line</mark></span></div>
+    <div><b>Engineering lead</b><span><mark data-todo>Ahmed: one line</mark></span></div>
+    <div><b><mark data-todo>remaining team: name, role, one line each</mark></b><span></span></div>
+  </div>
+</section>
+
+<section class="sec" aria-labelledby="ship-h">
+  <div><h2 id="ship-h">Products, at their real stage</h2><p>We say the stage. We do not hide it.</p></div>
+  <div class="layers">
+    <div><b>Observer OS</b><span>Creative operations system for studios: time, projects, intake, automations, an AI copilot. Web, mobile, browser extension, desktop. TypeScript, Rust. <mark data-todo>stage</mark></span></div>
+    <div><b>MENA</b><span><mark data-todo>one line from the team</mark> Next.js on Convex. <mark data-todo>stage</mark></span></div>
+    <div><b>The Scholar</b><span><mark data-todo>one line, and which repo this is</mark> <mark data-todo>stage</mark></span></div>
+    <div><b>Selal</b><span>Inventory and approvals for a physical supply chain, Arabic-first, ledger of every state change. Next.js, Prisma, Postgres; Flutter and Kotlin on mobile. (client platform) <mark data-todo>stage</mark></span></div>
+    <div><b>AdSpace</b><span>Out-of-home advertising marketplace. Next.js, tRPC, Prisma, Postgres. (client platform) <mark data-todo>stage</mark></span></div>
+    <div><b>MINT</b><span>Marketing site on a Turborepo, Sanity CMS. (client site) <mark data-todo>stage</mark></span></div>
+    <div><b>OCH</b><span>Coordination hub and shared memory for AI coding agents, beside GitHub. Go standard library, Postgres. Internal dogfood since 4 September 2026.</span></div>
+    <div><b>Content OS</b><span>Local-first tool that turns real project work into content. <mark data-todo>stage</mark></span></div>
+  </div>
+  <div></div>
+  <p><mark data-todo>confirm which client platforms may be named publicly; drop any that may not</mark></p>
+</section>
+
+<section class="sec" aria-labelledby="months-h">
+  <div><h2 id="months-h">Six months</h2><p>In March we were a design studio with one engineer. We rebuilt how we talk to each other before we rebuilt how we ship: one issue per need, decisions closed in writing, dated notes instead of chat, one gate everyone merges under. Then we let agents into that shape, not the other way round.</p></div>
   <div class="layers">
     <div><b>March 2026</b><span>A design studio with one engineer.</span></div>
     <div><b>June</b><span>Agents assist; ~22 PRs a week.</span></div>
@@ -156,19 +181,22 @@ footer{margin-top:56px;font-size:13.5px;color:var(--muted);max-width:70ch}
   </div>
 </section>
 
-<section class="sec" aria-labelledby="stack-h">
-  <div><h2 id="stack-h">The stack, chosen for AI</h2><p>Our stack is the one agents read and write best: typed, conventional, testable, one language across the product.</p></div>
-  <div class="layers">
-    <div><b>Product apps</b><span>TypeScript, Next.js, Prisma, Postgres.</span></div>
-    <div><b>Coordination hub</b><span>Go standard library, Postgres.</span></div>
-    <div><b>Agents</b><span>Claude Code with skills and hooks; Codex for second opinions.</span></div>
-    <div><b>Terminal</b><span>herdr panes, one lane per pane.</span></div>
-    <div><b>Delivery</b><span>GitHub, PRs, CI on every PR, one integration slot.</span></div>
+<section class="sec" aria-labelledby="case-h">
+  <div><h2 id="case-h">From design to engineering</h2></div>
+  <div>
+    <p><mark data-todo>Confirm: a designer's week in March 2026 — Figma, handoff, waiting on one engineer.</mark></p>
+    <p>Now, the same designer writes the issue, reads the scorecard, and merges under the gate.</p>
+    <p><b>Three humans merge under the same gate today.</b></p>
+    <div class="layers" style="margin-top:16px">
+      <div><b>Owns</b><span>the issue, not a Figma comment</span></div>
+      <div><b>Reads</b><span>the scorecard and the PR, not a status message</span></div>
+      <div><b>Merges</b><span>under the same ten-item gate as everyone</span></div>
+    </div>
   </div>
 </section>
 
 <section class="sec" aria-labelledby="w-h">
-  <div><h2 id="w-h">What our workflow is</h2><p>Three layers, one gate. Everything still runs on git, gh and GitHub PRs. No new tool for humans.</p></div>
+  <div><h2 id="w-h">How we work</h2><p>Three layers, one gate. Everything still runs on git, gh and GitHub PRs. No new tool for humans.</p></div>
   <div class="layers">
     <div><b>A human</b><span>Sets direction and keeps the calls that are theirs: client decisions, production data, the push to master.</span></div>
     <div><b>A coordinator</b><span>One agent per work track does the judgment: diagnoses, writes a one-page brief per task, cold-reviews every PR against a ten-item rubric, runs the shared integration slot, merges. It never writes feature code.</span></div>
@@ -177,11 +205,11 @@ footer{margin-top:56px;font-size:13.5px;color:var(--muted);max-width:70ch}
   </div>
 </section>
 
+<div id="replay" hidden>
 <section class="sec" aria-labelledby="r-h">
   <div><h2 id="r-h">How to read the replay</h2></div>
   <div>
-    <p>One request, nine stations, three phases. Blue stations are yours; the rest run while you are away from the keyboard.</p>
-    <p>Press play, or step through. When the page waits for you, it says so and stops until you answer.</p>
+    <p>One request, nine stations. Blue stations are a human's; the rest run while they are away from the keyboard. Press play, or step through.</p>
   </div>
 </section>
 
@@ -236,43 +264,37 @@ footer{margin-top:56px;font-size:13.5px;color:var(--muted);max-width:70ch}
   <div class="link grey hidden" id="link2" aria-hidden="true"><span>brief</span><span>sentinel: LANE-DONE, PR</span></div>
   <div class="tracks one" id="tracks"></div>
 </section>
+</div>
 
 <section class="rules sec" aria-labelledby="rules-h">
-  <div><h2 id="rules-h">Six things that do not bend</h2></div>
+  <div><h2 id="rules-h">Three things that do not bend</h2></div>
   <ul>
     <li><b>Build the spec, nothing around it.</b><span>Do not shrink the product; enhance it.</span></li>
-    <li><b>Never force-push.</b><span>Amended history goes on a new branch with a new PR.</span></li>
     <li><b>Lanes never delegate.</b><span>Work happens where it can be seen.</span></li>
-    <li><b>Idle is not finished.</b><span>Only the sentinel line is. A quiet pane gets a nudge, not a merge.</span></li>
-    <li><b>Coordinators write no feature code.</b><span>Briefs, reviews and notes are their files.</span></li>
     <li><b>Findings that live only in chat did not happen.</b><span>A dated note, merged by PR.</span></li>
   </ul>
 </section>
 
-<p class="after" style="overflow-wrap:anywhere">The full workflow page: <a href="https://observerstudio.github.io/coordinator/">https://observerstudio.github.io/coordinator/</a></p>
+<p class="after" style="overflow-wrap:anywhere">The interactive replay of one request lives on the workflow page: <a href="https://observerstudio.github.io/coordinator/">https://observerstudio.github.io/coordinator/</a></p>
 
-<section class="sec" aria-labelledby="case-h">
-  <div><h2 id="case-h">From design to engineering</h2></div>
+<section class="sec" aria-labelledby="stack-h">
+  <div><h2 id="stack-h">Stack agnostic, on purpose</h2><p>The AI-compatible part is not a framework. It is the shape of the work: typed, conventional, tested, one PR per change, a gate before merge. That shape has shipped Go, Rust, Dart and Kotlin, Convex, Prisma and tRPC, and Next.js in the same six months. We pick the stack per product and keep the way of working.</p></div>
   <div>
-    <p><mark data-todo>Confirm: a designer's week in March 2026 — Figma, handoff, waiting on one engineer.</mark></p>
-    <p>Now, the same designer writes the issue, reads the scorecard, and merges under the gate.</p>
-    <p><b>Three humans merge under the same gate today.</b></p>
-  </div>
-</section>
-
-<section class="sec" aria-labelledby="ship-h">
-  <div><h2 id="ship-h">Products, at their real stage</h2><p>We say the stage. We do not hide it.</p></div>
-  <div class="layers">
-    <div><b>Observer OS</b><span><mark data-todo>one line and stage from the team</mark></span></div>
-    <div><b>MENA</b><span><mark data-todo>one line and stage from the team</mark></span></div>
-    <div><b>The Scholar</b><span><mark data-todo>one line and stage from the team</mark></span></div>
-    <div><b>Selal</b><span><mark data-todo>one line and stage from the team</mark> (client platform)</span></div>
-    <div><b>OCH</b><span><mark data-todo>one line and stage from the team</mark> (coordination hub)</span></div>
+    <div class="layers">
+      <div><b>Product apps</b><span>TypeScript first; Next.js, Prisma or Convex, Postgres</span></div>
+      <div><b>Native</b><span>Rust desktop, Flutter and Kotlin mobile, Expo</span></div>
+      <div><b>Coordination hub</b><span>Go standard library, Postgres</span></div>
+      <div><b>Agents</b><span>Claude Code with skills and hooks; Codex for second opinions</span></div>
+      <div><b>Delivery</b><span>GitHub, PRs, CI on every PR, one integration slot</span></div>
+    </div>
+    <div class="layers" style="margin-top:16px">
+      <div><b>Tried, then dropped</b><span><mark data-todo>two or three tools we tried and removed, and why, from Ahmed</mark></span></div>
+    </div>
   </div>
 </section>
 
 <section class="sec" aria-labelledby="success-h">
-  <div><h2 id="success-h">What success looks like</h2></div>
+  <div><h2 id="success-h">What success looks like</h2><p>Merged PRs are the number we can show live. The ones we care about are underneath: nothing shipped twice, nothing rolled back, no post-mortem since 3 August.</p></div>
   <div>
     <div class="nums">
       <div class="num"><b>22</b><span>June to July. Agents assisting, no coordinator.</span></div>
@@ -287,6 +309,13 @@ footer{margin-top:56px;font-size:13.5px;color:var(--muted);max-width:70ch}
       <div><b>Cost</b><span>Model tier per lane.</span></div>
       <div><b>Per product</b><span><mark data-todo>one line each, in Momen's words</mark></span></div>
     </div>
+  </div>
+</section>
+
+<section class="sec" aria-labelledby="ask-h">
+  <div><h2 id="ask-h">What we want your read on</h2></div>
+  <div>
+    <p><mark data-todo>three questions for the guest, from Ahmed and Momen</mark></p>
   </div>
 </section>
 
@@ -416,7 +445,7 @@ paint();
 
 var m=/^#go=(\d)$/.exec(location.hash);if(m){quiet=true;state.answer='Half-up';goto(+m[1]);quiet=reduced}
 /* self-check: open index.html#selftest, read the console */
-if(location.hash==='#selftest'){var f=[];quiet=true;state.answer='Half-up';goto(8);
+if(location.hash==='#selftest'){document.getElementById('replay').removeAttribute('hidden');var f=[];quiet=true;state.answer='Half-up';goto(8);
   if(document.querySelectorAll('.pr.master').length!==1)f.push('one PR on master at the end');
   $('heavy').checked=true;goto(8);if(document.querySelectorAll('.pr.master').length!==3)f.push('three PRs on master on a heavy day');
   $('heavy').checked=false;goto(3);if(asking())f.push('no question when already answered');
